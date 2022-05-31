@@ -1,0 +1,4 @@
+(sleep 100; echo done)& //100초간 쉬고 done 출력
+find . -name test.c -print > find.txt & //후면처리 입출력
+kill 1230 //kill 명령어
+exit //종료코드
